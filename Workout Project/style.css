@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: black;
+    border-bottom: 5px solid white;
+
+}
+
+#title{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgb(172, 172, 172);
+    font-size: 50px;
+    border-width: 0;
+    width: 55%;
+    }
+
+.line{
+    background-color: rgb(172, 172, 172);;
+    height:6px;
+    width: 45%;
+    margin-left: 1rem;
+    justify-content: right;
+}
+
+#choice{
+    margin: 2.5%;
+}
+
+#choose-day{
+    text-align: center;
+    color:rgb(172, 172, 172);
+    font-size: 50px;
+    font-family: "Abril Fatface", serif;
+}
+
+#weekdays{
+    display: flex;
+}
+
+.days{
+    width: 14.66%;
+    margin: 1%;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50%;
+ 
+}
+
+.days:hover{
+    border: 2px solid white;    
+}
+
+.day-image{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.abc{
+    font-family: "Protest Guerrilla", sans-serif;
+    text-align-last: center;
+    color: white ;
+    font-size: 65px;
+}
+
+.day-name{
+    text-align: center;
+    font-size: xx-large;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.part-name{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.part{
+    display: flex;
+}
+
+.exercise{
+    margin: 2.5%;
+    width: 28.33%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10%;
+}
+
+.excercise-name{
+    font-size: x-large;
+}
+
+.gif{
+    border-radius: 10%;
+    width: 100%;
+}
